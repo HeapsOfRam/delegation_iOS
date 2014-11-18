@@ -14,6 +14,7 @@
 		2163C3101A1B8B2900E811A1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2163C30F1A1B8B2900E811A1 /* Images.xcassets */; };
 		2163C3131A1B8B2900E811A1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2163C3111A1B8B2900E811A1 /* LaunchScreen.xib */; };
 		2163C31F1A1B8B2900E811A1 /* alert_view_delegationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2163C31E1A1B8B2900E811A1 /* alert_view_delegationTests.m */; };
+		2163C32A1A1B8FC800E811A1 /* alert_delegator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2163C3291A1B8FC800E811A1 /* alert_delegator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		2163C3181A1B8B2900E811A1 /* alert_view_delegationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = alert_view_delegationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2163C31D1A1B8B2900E811A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2163C31E1A1B8B2900E811A1 /* alert_view_delegationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = alert_view_delegationTests.m; sourceTree = "<group>"; };
+		2163C3281A1B8FC800E811A1 /* alert_delegator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = alert_delegator.h; sourceTree = "<group>"; };
+		2163C3291A1B8FC800E811A1 /* alert_delegator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = alert_delegator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 				2163C3061A1B8B2900E811A1 /* AppDelegate.h */,
 				2163C3071A1B8B2900E811A1 /* AppDelegate.m */,
 				2163C3091A1B8B2900E811A1 /* ViewController.h */,
+				2163C3281A1B8FC800E811A1 /* alert_delegator.h */,
+				2163C3291A1B8FC800E811A1 /* alert_delegator.m */,
 				2163C30A1A1B8B2900E811A1 /* ViewController.m */,
 				2163C30C1A1B8B2900E811A1 /* Main.storyboard */,
 				2163C30F1A1B8B2900E811A1 /* Images.xcassets */,
@@ -221,6 +226,7 @@
 			files = (
 				2163C30B1A1B8B2900E811A1 /* ViewController.m in Sources */,
 				2163C3081A1B8B2900E811A1 /* AppDelegate.m in Sources */,
+				2163C32A1A1B8FC800E811A1 /* alert_delegator.m in Sources */,
 				2163C3051A1B8B2900E811A1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
